@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style>
+        .col-sm-8{
+            background-color: rgb(129, 67, 73);
+            height: 440px;
+            width: 500px;
+            border: 2px solid brown;
+            margin-top: 150px;
+        }
+        img{
+            height: 140px;
+            width: 140px;
+            margin-left: 185px;
+            margin-top: 20px;
+        }
+        h3{
+            text-align: center;
+            margin-top: 15px;
+        }
+        #row{
+            margin-top: -30px;
+        }
+        #button{
+            width: 400px;
+            margin-left: 10px;
+            margin-right: 3px;
+        }
+        input{
+            width: 97%;
+            margin: 3px 10px;
+        }
+        label{
+            font-weight: 800;
+        }
+        body{
+            background-color: rgb(101, 110, 110);
+        }
+        .col-sm-8{
+            margin-top: 39px;
+            margin-left: 290px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 offset-2">
+                <img src="com.logicspider.bmi.jpg" alt="BMI Calculator">
+                <h3>Enter All Details</h3>
+                <div class="row" id="row">
+                    <div class="col-sm-12" style="margin-top: -15px;">
+                        <table>
+                            <form>
+                                <tbody>
+                                <tr>
+                                    <td><label for="">Age</label></td>
+                                    <td><input type="number" placeholder="Please enter your age"></td><br>
+                                </tr>
+                                <tr>
+                                    <td><label for="">Height</label></td>
+                                    <td><input type="number" placeholder="Please enter your height"></td><br>
+                                </tr>
+                                <tr>
+                                    <td><label for="">Weight</label></td>
+                                    <td><input type="number" placeholder="Please enter your weight"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><button class="btn btn-success" type="submit" id="button">Calculate BMI</button></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="">BMI</label></td>
+                                    <td><input type="number"></td>
+                                </tr>
+                                </tbody>
+                             </form>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
